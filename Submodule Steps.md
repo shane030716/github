@@ -8,7 +8,7 @@ Existing project: programming-problems
 
 Folder that needs a standalone repository programming-problems/src/util/histogramprinter
 
-Outside project root directory programming-problems/../
+Outside project root directory programming-problems
 
 `cp -r programming-problems/src/util/histogramprinter histogram-printer`
 
@@ -48,20 +48,17 @@ commit
 
 ### Pull updates from submodule
 [This](http://stackoverflow.com/questions/5828324/update-git-submodule-to-latest-commit-on-origin) says `git submodule update` command actually tells Git that you want your submodules to each check out the commit already specified in the index of the superproject.
-`git submodule update --init --recursive`
+So probably don't need this `git submodule update --init --recursive`
 
 If you want to update your submodules to the latest commit available from their remote, you will need to do this directly in the submodules.
-`cd src/util/histogramprinter`
 
-checkout or pull
+Inside submodule folder, checkout or/and pull
 
 `git checkout master`
 
 `git pull origin master`
 
 go back to programming-problems root
-
-`cd ../../../`
 
 `git commit -am 'Pulled Down update to submodule'
 
@@ -71,7 +68,7 @@ Or
 
 `git submodule foreach git pull origin master`
 
-`git commit -am 'Pulled Down update to submodule'
+`git commit -am 'Pulled Down update to submodule`
 
 `git push`
 
@@ -88,9 +85,5 @@ for the first time
 `git push`
 
 Go back to project root
-`cd ../../../`
 
 And use the steps in Pull updates from submodule
-
-`git commit -m "Updated submodule"
-`git push`
