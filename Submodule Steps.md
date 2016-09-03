@@ -60,7 +60,7 @@ Inside submodule folder, checkout or/and pull
 
 go back to programming-problems root
 
-`git commit -am 'Pulled Down update to submodule'
+`git commit -am 'Pulled Down update to submodule`
 
 `git push`
 
