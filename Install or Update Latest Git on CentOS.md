@@ -32,4 +32,4 @@ Check version
 git --version
 ```
 
-*(Need to know how to uninstall it)*
+*(Need to know how to uninstall it and set up server)*
