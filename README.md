@@ -6,4 +6,6 @@ Some tips and tricks about using Git and GitHub
 
 [Install or update latest Git on a CentOS](Install or Update Latest Git on CentOS.md)
 
-Next **how to set up a Java project in Eclipse with Git** and **how to set a project in Xcode with Git**
+[How to set up a Java project in Eclipse with Git](Import Java project from GitHub to Eclipse.md)
+
+Next: **how to set a project in Xcode with Git**
