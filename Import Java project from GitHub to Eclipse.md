@@ -4,13 +4,9 @@ Situation: My Java projects are stored in GitHub, switching to a new work statio
 
 Launch Eclipse.
 
-Install the eGit plug-in if you haven't done so.
+Install the eGit plug-in if you haven't done so. (Top Menu -> Help -> Eclipse Marketplace -> Search for eGit.)
 
-	Top Menu -> Help -> Eclipse Marketplace -> Search for eGit.
-
-Open the Git perspective.
-
-	If it's not there in the upper-right cornder, click Window in the top menu -> Perspective -> Open Perspective -> Other -> Git
+Open the Git perspective. If it's not there in the upper-right cornder, click Window in the top menu -> Perspective -> Open Perspective -> Other -> Git
 
 Go to your GitHub repository (from a browser) and copy the repository URL.
 
